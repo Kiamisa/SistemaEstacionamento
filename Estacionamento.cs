@@ -22,7 +22,9 @@ class Estacionamento
         }
 
         veiculos.Add(placa.ToUpper());
-        Console.WriteLine($"Veículo {placa.ToUpper()} adicionado com sucesso.");
+        Console.WriteLine($"Veículo {placa.ToUpper()} adicionado com sucesso.\n");
+        Console.WriteLine("Pressione qualquer tecla para continuar...");
+        Console.ReadKey();
     }
 
     public void RemoverVeiculo(string placa)
